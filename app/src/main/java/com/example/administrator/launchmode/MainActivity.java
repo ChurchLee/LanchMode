@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void printInfo(){
         Log.i("Tag",this.getClass().toString());
-        Log.i("TAG",String.format("TaskID: %s MainActivity InstanceID:%s\n",getTaskId(),this.toString()));
+        Log.i("TAG",String.format("TaskID: %s\n MainActivity InstanceID:%s\n",getTaskId(),this.toString()));
         Log.i("TAG","---------------------------------------");
     }
 }
